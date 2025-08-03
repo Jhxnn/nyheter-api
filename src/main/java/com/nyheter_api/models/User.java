@@ -21,7 +21,7 @@ public class User {
 
     private String password;
 
-    private List<Topic> preferredTopic;
+    private Topic preferredTopic;
 
     public UUID getUserId() {
         return userId;
@@ -55,11 +55,11 @@ public class User {
         this.password = password;
     }
 
-    public List<Topic> getPreferredTopic() {
+    public Topic getPreferredTopic() {
         return preferredTopic;
     }
 
-    public void setPreferredTopic(List<Topic> preferredTopic) {
+    public void setPreferredTopic(Topic preferredTopic) {
         this.preferredTopic = preferredTopic;
     }
 }
